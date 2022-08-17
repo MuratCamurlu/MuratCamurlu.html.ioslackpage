@@ -42,7 +42,8 @@ body{
     padding-top: 1rem;
     position: sticky;
     top: 0;
-    font-size: 1.1rem;
+    font-family: 'DynaPuff', cursive;
+    font-size: 1.5rem;
 }
 .header li{
     display: inline-block;
@@ -58,23 +59,20 @@ body{
 }
 .slack{
     border: 1px solid red;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    background-color: red;
     position: fixed;
     bottom: 2rem;
-    right: 3rem;
-    background-color: red;
+    right: 2rem;
+    padding: 6px;
+}
+.slack .fa-slack{
+    color:white;
+}
+.slack .fa-slack:hover{
+    color: black;
 }
 
-.slack img{
-   
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: red;
-    position: fixed;
-    bottom: 3rem;
-    right: 4rem;
-    color: white;
-}
+
